@@ -26,7 +26,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/Diag.cfg:system/etc/Diag.cfg \
-    $(LOCAL_PATH)/proprietary/system/etc/Diag_zero.cfg:system/etc/Diag_zero.cfg
+    $(LOCAL_PATH)/proprietary/system/etc/Diag_zero.cfg:system/etc/Diag_zero.cfg \
+    $(LOCAL_PATH)/proprietary/system/etc/init.d/S50enable_001bkcpufreq_050-1000:system/etc/init.d/S50enable_001bkcpufreq_050-1000 \
+    $(LOCAL_PATH)/proprietary/system/etc/init.d/S74enable_001bktouchwake_033-on_25secg:system/etc/init.d/S74enable_001bktouchwake_033-on_25secg \
+    $(LOCAL_PATH)/proprietary/system/etc/init.d/S83enable_bktouchkeylightmode:system/etc/init.d/S83enable_bktouchkeylightmode
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/lib/libakm.so \
